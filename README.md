@@ -25,7 +25,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v1
       - name: create-release-pr
-        uses: grassedge/git-pr-release-action@v1.0
+        uses: bouchedid/git-pr-release-action@v1.0
         with:
           base: production
           head: pre-production
