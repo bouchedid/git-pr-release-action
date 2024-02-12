@@ -1,6 +1,6 @@
 {
   "name": "git-pr-release-action",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
     "package": "ncc build lib/index.js",
@@ -20,7 +20,7 @@
     "@actions/core": "^1.2.0",
     "@actions/github": "^2.0.0",
     "@zeit/ncc": "^0.20.5",
-    "git-pr-release-library": "^1.0.0",
+    "git-pr-release-library": "^1.0.1",
     "moment-timezone": "^0.5.27"
   }
 }
